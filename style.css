@@ -1,0 +1,194 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bar {
+  padding-top: 1rem;
+  background-color:rgb(37, 36, 36);
+  color: whitesmoke;
+}
+
+.bar p {
+  left: 25rem;
+}
+
+.intro {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url('images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.intro img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.intro h1 {
+  color: rgb(253, 253, 253);
+  font-size: 2rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  color: whitesmoke;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.summary,
+.testimonial,
+.photos,
+.meetup {
+  margin: 4em auto;
+}
+
+.summary {
+  padding: 0 1rem;
+}
+
+.summary p {
+  color: black;
+}
+
+.testimonial {
+  background-color: goldenrod;
+  height: 10rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  color: black;
+}
+
+.testimonial h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.summary h2 {
+  color: black;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+.meetup {
+  margin-bottom: 2rem;
+}
+
+.meetup img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.meetup h1 {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* footer */
+
+.footer{
+    font-size: 10px;
+    background: rgb(36, 35, 35);
+    color: white;
+}
+.footer .social-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.footer h3{
+    text-align: center;
+}
+
+.footer .social-icons a{
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+#copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright a{
+    color: rgb(167, 24, 24);
+}
+
+
+@media only screen and (max-width: 1048px) {
+
+  .photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .intro h1 {
+    margin-top: 2rem;
+  }
+
+  .intro {
+    max-height: 200px;
+  }
+
+  .photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .testimonial h1 {
+    font-size: 2rem;
+  }
+
+  .photos img {
+    width: 100%;
+  }
+}
